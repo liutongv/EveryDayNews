@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">EveryDayNews</string>
+    <!--主界面-->
+    <string name="main_military">军事</string>
+    <string name="main_society">社会</string>
+    <string name="main_stock">股票</string>
+    <string name="main_fund">基金</string>
+    <string name="main_phone">手机</string>
+    <string name="main_yc">英超</string>
+    <string name="main_NBA">NBA</string>
+    <!--上拉加载下拉刷新-->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!--登录界面-->
+    <string name="user_name">请输入用户昵称</string>
+    <string name="password">密码：6到16位个字符</string>
+    <string name="reg">注册</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="login">登录</string>
+    <!--注册界面-->
+    <string name="email_address">请输入邮箱地址</string>
+    <string name="input_name">请输入昵称</string>
+    <string name="reg_password">请输入密码</string>
+    <string name="at_once_reg">立即注册</string>
+    <string name="text">我同意“服务条款”和“网络用户隐私保护和个人信息利用政策”</string>
+    <!--忘记密码界面-->
+    <string name="reg_address">输入注册时的邮箱号</string>
+    <string name="affirm">确认</string>
+    <!--个人中心-->
+    <string name="exit">退出登录</string>
+    <string name="login_log">登录日志:</string>
+    <string name="count">跟帖数统计:</string>
+    <!--评论-->
+    <string name="write_commit">寫評論</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_userhome_pop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设置头像照片"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/tv_userhome_pop_camera"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/photo_take"
+            android:text="调用相机拍照"
+            android:textSize="20sp"
+            android:drawablePadding="10dp"/>
+
+        <TextView
+            android:id="@+id/tv__userhome_pop_photo"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/photo_sel"
+            android:text="从图库中选取"
+            android:textSize="20sp"
+            android:drawablePadding="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>
